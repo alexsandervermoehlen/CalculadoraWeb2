@@ -1,6 +1,6 @@
 <?php 
         session_start();
-       
+        $itotal = 0;
 
         $_SESSION['calculadora'] = $_SESSION['calculadora'] . $_POST[ 'botao'];  
 
